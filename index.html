@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="http://kit.fontawesome.com/f2acad824e.js" crossorigin="anonymous"><</script>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+    <!--**************NAVBAR**************-->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <a class=" navbar-brand logo fw-bold" href="#">ECHO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#" id="active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Contact Us</a>
+                    </li>
+                    <button type="button" class="btn btn">Log In</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--*********Landing*************-->
+    <div class="container">
+        <div class="row ">
+            <div class="col-6 left-content">
+                <h1 class="fw-bold ">Expert SEO,SMD's</h1>
+                <h1 class="fw-bold">Services in Pakistan </h1>
+                <p class="text-muted para">
+                    Bootstrap includes several predefined button styles, each serving its own semantic purpose, with a
+                    few extras thrown in for more control.
+                </p>
+                <button type="button" class="btn btn    rounded-pill px-4">Primary</button>
+                <button type="button" class="btn btn rounded-pill px-4">log in</button>
+            </div>
+            <div class="col-6">
+                <img src="data:image/jpeg;base64,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"
+                    class="img" alt="no img available">
+
+            </div>
+        </div>
+    </div>
+    <!--**********features*****************-->
+    <div class="container">
+        <h1 class="text-center">Our Features</h1>
+        <p class="text-center   w-50  mx-auto">
+            Voluntary Association: A company is an association of many persons on a voluntary basis. Therefore a company
+            is formed by the choice and consent of the members.
+            Legal Personality: A company is regarded by law as a single person. It has a legal personality. This rule
+            applies even in the case of “One-man Company.”
+        </p>
+        <!--************Icon*************-->
+        <div class="row ">
+            <div class="col-12 col-md-4 left-content2">
+                <h1> <i class="fa-solid fa-rocket   icon"></i></h1>
+                <i class="fa-duotone fa-rocket"></i>
+                <h1>
+                    Market Service
+                </h1>
+                <p>
+                    Voluntary Association: A company is an association of many persons on a voluntary basis. Therefore a
+                    company is formed by the choice and consent of the members.
+                    Legal Personality
+                </p>
+            </div>
+            <div class="col-12 col-md-4 left-content2">
+                <h1> <i class="fa-solid fa-rocket   icon"></i></h1>
+                <h1>
+                    Market Service
+                </h1>
+                <p>
+                    Voluntary Association: A company is an association of many persons on a voluntary basis. Therefore a
+                    company is formed by the choice and consent of the members.
+                    Legal Personality
+                </p>
+            </div>
+            <div class="col-12 col-md-4 left-content2">
+                <h1> <i class="fa-solid fa-rocket   icon"></i></h1>
+                <h1>
+                    Market Service
+                </h1>
+                <p>
+                    Voluntary Association: A company is an association of many persons on a voluntary basis. Therefore a
+                    company is formed by the choice and consent of the members.
+                    Legal Personality
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <img src="data:image/jpeg;base64,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"
+                    class="img2">
+            </div>
+            <div class="col-4">
+                <h1 class="agency">Why Our Agency?</h1>
+                <p>
+                    5/08/2018 · There are two ways you can integrate font-awesome in your html - 1. Font Awesome Link
+                    (CDN) 2. Download & Install. Font Awesome Link (CDN): This is the easiest way to get font-awesome
+                    with just one line of code in your html page
+
+                    <head> tag. No downloading, installing or configuration required in this case. Just one line of code
+                        and you are good to go -
+                        Estimated Reading Time: 3 mins
+                </p>
+                <p>
+                    5/08/2018 · There are two ways you can integrate font-awesome in your html - 1. Font Awesome Link
+                    (CDN) 2. Download & Install. Font Awesome Link (CDN): This is the easiest way to get font-awesome
+                    with just one line of code in your html page
+
+                    <head> tag. No downloading, installing or configuration required in this case. Just one line of code
+                        and you are good to go -
+                        Estimated Reading Time: 3 mins
+                        <ul>
+                            <li>Tap how to learn</li>
+                            <li>Tap how to learn</li>
+                            <li>Tap how to learn</li>
+                        </ul>
+                        <button type="button" class="btn btn rounded-pill px-4"> click me</button>
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <!--****************Our Value ******************-->
+    <h1   class="text-center">Our Value  </h1>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="https://th.bing.com/th/id/OIP.3wsPXMv1gSlqZhJ6K4Co0gHaFc?w=241&h=180&c=7&r=0&o=5&pid=1.7" class="d-block w-100" alt="no img available">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://th.bing.com/th/id/OIP.s6jeaYzX0LGfYJAsWSekPgHaEo?w=285&h=180&c=7&r=0&o=5&pid=1.7" class="d-block w-100" alt="no img available">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="no img available">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>s
+   
+        <!--*************Our services***********-->
+        <div class="container">
+            <h1 class="text-center ">Our Services</h1>
+            <p class="text-center   w-50  mx-auto">
+                Voluntary Association: A company is an association of many persons on a voluntary basis. Therefore a
+                company
+                is formed by the choice and consent of the members.
+                Legal Personality: A company is regarded by law as a single person. It has a legal personality. This
+                rule
+                applies even in the case of “One-man Company.”
+            </p>
+            <div class="row">
+                <div class="col-6">
+
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <h1><i class="fa-solid fa-rocket"></i></h1>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <h1><i class="fa-solid fa-rocket"></i></h1>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <h1><i class="fa-solid fa-rocket"></i></h1>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rocket</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <h1><i class="fa-solid fa-address-book"></i></h1>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Upload</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <h1><i class="fa-solid fa-rocket"></i></h1>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rocket</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <h1><i class="fa-solid fa-address-book"></i></h1>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Upload</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+           
+<!--***************Footer***************-->
+<footer class ="bg-light">
+    <h1 class="text-center footer" >Copy right 2022 </h1>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+:root {
+    --blue: rgb(42, 42, 146);
+}
+
+.logo {
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.btn {
+
+    background-color: var(--blue);
+    color: white;
+}
+
+#active {
+    color: var(--blue);
+
+}
+
+.img {
+    height: 500px;
+    width: 600px;
+}
+
+.left-content {
+    padding-top: 150px;
+}
+
+.para {
+    font-size: 22px;
+}
+
+.left-content2 {
+    padding-top: 60px;
+}
+
+.agency {
+    color: var(--blue);
+    padding-top: 60px;
+}
+
+.img2 {
+
+    height: 550px;
+    width: 800px;
+    margin-top: 0px;
+}
+
+.icon {
+    text-align: center;
+}
+.footer{
+    font-weight:muted;
+    font-size: 20px;
+    margin-top:20px;
+}
